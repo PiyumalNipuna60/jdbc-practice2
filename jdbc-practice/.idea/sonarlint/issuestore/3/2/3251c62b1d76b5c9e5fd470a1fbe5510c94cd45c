@@ -1,0 +1,6 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8åñ½©ò1J$bc74348d-fe0c-4c73-a5b3-80394fbd49e4
+—
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(´á şÿÿÿÿ8íñ½©ò1J$4ea3a03b-39d0-4328-825d-8cfd170b0b49
+„
+java:S1126"AReplace this if-then-else statement by a single return statement.(Œ‡Ü‘8½ÛÄ©ò1J$635f1b81-2107-4219-a697-75377f8288ff
