@@ -67,7 +67,26 @@ public class CustomerForm {
     }
 
     public void btnSearchOnAction(ActionEvent actionEvent) {
+        String id = txtId.getText();
 
+        try {
+            Connection connection = DBConnection.getInstance().getConnection();
+            PreparedStatement pstm = connection.prepareStatement("select * from customer where id=?");
+            pstm.setObject(1, id);
+
+            ResultSet resultSet = pstm.executeQuery();
+            if (resultSet.next()) {
+               txtAge.setText(resultSet.getString(3));
+               txtContact.setText(resultSet.getString(5));
+               txtName.setText(resultSet.getString(2));
+               txtAddress.setText(resultSet.getString(4));
+            }else {
+                new Alert(Alert.AlertType.ERROR,"Empty data..!").show();
+            }
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void btnClearOnAction(ActionEvent actionEvent) {
