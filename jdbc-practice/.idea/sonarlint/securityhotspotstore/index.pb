@@ -19,3 +19,19 @@ d
 4src/main/java/org/example/navigation/Navigation.java,8\e\8e45a13787746cc2c0de8c586eb65c5fd31493e1
 ^
 .src/main/java/org/example/model/UserModel.java,3\2\3251c62b1d76b5c9e5fd470a1fbe5510c94cd45c
+b
+2src/main/java/org/example/model/CustomerModel.java,2\4\24b996449cca43bbf648969356d210b0ea709b08
+L
+src/main/java/org/example/da,2\a\2a597d7eeb1c2be0d8c14670d0c37fb4a9867538
+w
+G.idea/sonarlint/issuestore/2/a/2a597d7eeb1c2be0d8c14670d0c37fb4a9867538,3\9\398b74942c01dd2bf5d2e92ccc2b0c31bc0c4036
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+O
+src/main/java/org/example/dbTxt,e\6\e6fc26dce10a1d059c4206531a24b2461f06ff00
+Å
+Q.idea/sonarlint/securityhotspotstore/2/4/24b996449cca43bbf648969356d210b0ea709b08,9\2\926fa1db816d6f525745d9166da620bcf9b8ae2d
+Å
+Q.idea/sonarlint/securityhotspotstore/2/a/2a597d7eeb1c2be0d8c14670d0c37fb4a9867538,3\1\318e239f8b94c09c5b8cdbf1837e2c6cce301176
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e

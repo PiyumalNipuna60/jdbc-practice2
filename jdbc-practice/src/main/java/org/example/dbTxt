@@ -1,0 +1,15 @@
+create database test;
+use test;
+
+create table login(
+  userName varchar(10),
+  password varchar(10)
+);
+
+create table customer(
+   id int,
+   name varchar(10),
+   age int,
+   address varchar(10),
+   contact varchar(10)
+);

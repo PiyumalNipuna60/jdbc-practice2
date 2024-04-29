@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="674.0" prefWidth="778.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.CustomerForm">
    <children>
       <TextField fx:id="txtName" layoutX="262.0" layoutY="149.0" />
@@ -39,5 +38,7 @@
          </font>
       </Label>
       <Separator layoutX="302.0" layoutY="89.0" prefWidth="200.0" />
+      <TextField fx:id="txtId" layoutX="262.0" layoutY="103.0" />
+      <Label layoutX="137.0" layoutY="108.0" text="Id" />
    </children>
 </AnchorPane>
