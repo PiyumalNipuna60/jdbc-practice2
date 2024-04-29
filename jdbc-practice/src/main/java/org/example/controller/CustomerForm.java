@@ -6,7 +6,6 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import org.example.db.DBConnection;
-import org.example.model.CustomerModel;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -64,6 +63,22 @@ public class CustomerForm {
     }
 
     public void btnDeleteOnAction(ActionEvent actionEvent) {
+        String id = txtId.getText();
+
+        try {
+            Connection connection = DBConnection.getInstance().getConnection();
+            PreparedStatement pstm = connection.prepareStatement("delete from customer where id=?");
+            pstm.setObject(1,id);
+
+            int i = pstm.executeUpdate();
+            if (i>0){
+                new Alert(Alert.AlertType.CONFIRMATION,"Delete Date..!").show();
+            }else {
+                new Alert(Alert.AlertType.ERROR,"Something Wrong..!").show();
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void btnSearchOnAction(ActionEvent actionEvent) {

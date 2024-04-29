@@ -27,7 +27,7 @@
             <TableColumn fx:id="colContact" prefWidth="199.0" text="contact" />
         </columns>
       </TableView>
-      <Button layoutX="584.0" layoutY="175.0" mnemonicParsing="false" onAction="#btnSaveOnAction" prefHeight="31.0" prefWidth="80.0" text="Save" />
+      <Button layoutX="584.0" layoutY="175.0" mnemonicParsing="false" onAction="#btnSaveOnAction" prefHeight="31.0" prefWidth="80.0" style="-fx-background-color: red; -fx-background-radius: 10;" text="Save" />
       <Button layoutX="584.0" layoutY="225.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="31.0" prefWidth="80.0" text="Update" />
       <Button layoutX="584.0" layoutY="280.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="31.0" prefWidth="80.0" text="Delete" />
       <Button layoutX="584.0" layoutY="328.0" mnemonicParsing="false" onAction="#btnSearchOnAction" prefHeight="31.0" prefWidth="80.0" text="Search" />
