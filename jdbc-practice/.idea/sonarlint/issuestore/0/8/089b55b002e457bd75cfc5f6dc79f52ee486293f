@@ -1,8 +1,0 @@
-
-	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8üÔ•¨ò1J$ce042ac2-a3cf-4aec-8401-5e550c1eb1f7
-v
-java:S1121".Extract the assignment out of this expression.(˜¯÷‘ÿÿÿÿÿ8şÔ•¨ò1J$94913d3e-cdd5-4606-9ff8-e3a928043fa2
-u
-java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ8Õ•¨ò1J$33fccaec-c6cf-4131-94b0-d4d5a45ef53e
-~
-java:S6437"6Revoke and change this password, as it is compromised.(·şåûÿÿÿÿ8‘Õ•¨ò1J$45377dda-7448-4bf1-868a-99d4abea73fa
