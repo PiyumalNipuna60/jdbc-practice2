@@ -10,8 +10,9 @@ import lombok.ToString;
 @Data
 @ToString
 public class CustomerDto {
+    private String id;
     private String name;
-    private int age;
+    private String  age;
     private String address;
     private String contact;
 }

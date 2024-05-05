@@ -1,8 +1,3 @@
 
-	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¢‚—Ñô1J$e38213f3-7e4b-4ce0-a779-de38823fa3b0
-—
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¥Òš¤ÿÿÿÿÿ8ç™Ñô1J$f177db1c-ccad-4d12-a9a7-a076f6d31383
-É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×›±±üÿÿÿÿ8¬‚—Ñô1J$246c3e0e-98fc-4ced-9397-288a05e4b5ca
-y
-java:S1128"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:8¸›Ñô1J$b43d2ab2-b17e-4f45-bad2-74a34dedcfe4
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8·Ó®Óô1J$d7d04323-d498-4874-b816-943f172bbaf8
+~	java:S125"<This block of commented-out lines of code should be removed.(Åİ¼§8ÂÓ®Óô1J$da8f7bbf-1691-443c-9d87-8cb7bb0d0871

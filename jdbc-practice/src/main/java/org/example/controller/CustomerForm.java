@@ -40,12 +40,13 @@ public class CustomerForm implements Initializable {
         String contact = txtContact.getText();
 
         CustomerModel customerModel = new CustomerModel();
-        int i = customerModel.saveCusromer(id, name, age, address, contact);
+        int i = customerModel.saveCustomer(new CustomerDto(id, name, age, address, contact));
 
-        if (i>0){
+        if (i > 0) {
+            new Alert(Alert.AlertType.CONFIRMATION, "save Customer..!").show();
 
-        }else {
-
+        } else {
+            new Alert(Alert.AlertType.ERROR, "Something Wrong..!").show();
         }
     }
 
@@ -131,8 +132,9 @@ public class CustomerForm implements Initializable {
             ResultSet resultSet = pstm.executeQuery();
             while (resultSet.next()){
                 CustomerDto customerDto = new CustomerDto(
+                        resultSet.getString(1),
                         resultSet.getString(2),
-                        resultSet.getInt(3),
+                        resultSet.getString(3),
                         resultSet.getString(4),
                         resultSet.getString(5)
                 );
