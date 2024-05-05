@@ -10,6 +10,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import org.example.db.DBConnection;
 import org.example.dto.CustomerDto;
+import org.example.model.CustomerModel;
 
 import java.net.URL;
 import java.sql.Connection;
@@ -38,25 +39,13 @@ public class CustomerForm implements Initializable {
         String address = txtAddress.getText();
         String contact = txtContact.getText();
 
-        try {
-            Connection connection = DBConnection.getInstance().getConnection();
-            PreparedStatement pstm = connection.prepareStatement("insert into customer values(?,?,?,?,?)");
-            pstm.setObject(1, id);
-            pstm.setObject(2, name);
-            pstm.setObject(3, age);
-            pstm.setObject(4, address);
-            pstm.setObject(5, contact);
-            int i = pstm.executeUpdate();
+        CustomerModel customerModel = new CustomerModel();
+        int i = customerModel.saveCusromer(id, name, age, address, contact);
 
-            if (i > 0) {
-                new Alert(Alert.AlertType.CONFIRMATION, "save Customer..!").show();
-                loadTableData();
-                btnClearOnAction();
-            } else {
-                new Alert(Alert.AlertType.ERROR, "Something Wrong..!").show();
-            }
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
+        if (i>0){
+
+        }else {
+
         }
     }
 
