@@ -1,0 +1,19 @@
+
+š
+java:S1104"YMake paneDashboard a static final constant or non-public and provide accessors if needed.(¾úËÍşÿÿÿÿJ$9e1ce5f1-5e10-4fe7-b817-6813deafe8a9
+•
+java:S1104"TMake mainPane a static final constant or non-public and provide accessors if needed.(ÚÓí ûÿÿÿÿJ$8d6dbdd9-6fef-4c02-b6d8-3e3a16cd3b30
+”
+java:S1104"SMake lblDate a static final constant or non-public and provide accessors if needed.(…“À„ÿÿÿÿÿJ$273d48c5-97e7-4d30-b5cc-7f90fcc69198
+
+java:S1104"SMake lblTime a static final constant or non-public and provide accessors if needed.(¿°×•J$3a5695df-d9b4-43c4-9512-cbfda3706e9e
+½
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿áÃ€J$be47153c-c0af-4dca-a3d7-fc7904e9ee41
+Â
+java:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‘ñáùÿÿÿÿJ$5edd4e4e-5968-4ef8-9757-be6966a65f4a
+s
+java:S1172 "2Remove this unused method parameter "actionEvent".(™ŸòùÿÿÿÿJ$7a94eb37-cdf0-4084-8cfb-bea800d3a034
+s
+java:S1172("2Remove this unused method parameter "actionEvent".(æïéˆûÿÿÿÿJ$1d138c82-0580-442a-89ea-bd3f02bfb384
+s
+java:S11722"2Remove this unused method parameter "actionEvent".(ê‘ü£şÿÿÿÿJ$0d8ff319-ee38-4adf-93a3-c88b3a817ba2

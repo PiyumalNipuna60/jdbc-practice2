@@ -18,7 +18,7 @@ public class LoginForm {
         boolean value = userModel.userCheck(userName, password);
         if (value==true){
             Navigation navigation = new Navigation();
-            navigation.popUpNavigation("customerForm.fxml");
+            navigation.popUpNavigation("DashBoard.fxml");
         }
         else {
             new Alert(Alert.AlertType.ERROR,"Wrong Details..!").show();

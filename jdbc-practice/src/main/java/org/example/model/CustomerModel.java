@@ -7,6 +7,7 @@ import org.example.dto.CustomerDto;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class CustomerModel {
     public int saveCustomer(CustomerDto customerDto) {
@@ -24,6 +25,14 @@ public class CustomerModel {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public ArrayList<String> getAllId() {
+        return null;
+    }
+
+    public CustomerDto searchCustomer(String s) {
+        return null;
     }
 
 

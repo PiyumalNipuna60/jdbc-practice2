@@ -44,7 +44,6 @@ public class CustomerForm implements Initializable {
 
         if (i > 0) {
             new Alert(Alert.AlertType.CONFIRMATION, "save Customer..!").show();
-
         } else {
             new Alert(Alert.AlertType.ERROR, "Something Wrong..!").show();
         }

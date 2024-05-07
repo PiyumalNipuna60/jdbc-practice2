@@ -1,0 +1,28 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‚ù²¢õ1J$aa62c111-a0b1-45ea-9c6b-74436e77de7d
+	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(êâ±„şÿÿÿÿ8„ù²¢õ1J$de30cc7f-2281-4f32-901e-957136f22562
+	java:S112V"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8„ù²¢õ1J$675d8178-d291-4a40-8b93-f089c7efda8c
+	java:S112n"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8…ù²¢õ1J$aeed526a-f812-4acb-ac32-860539401df6
+œ
+java:S2293["YReplace the type specification in this constructor call with the diamond operator ("<>").(ĞøÂ·8‡ù²¢õ1J$7e79acbb-846d-4291-888e-0e46975b3325
+¸
+java:S1319Z"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‹ç”Ûüÿÿÿÿ8Šù²¢õ1J$f37a7f23-6414-46ab-a69b-0d3eb65a5dec
+˜	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÂÛùÿÿÿÿ8ù²¢õ1J$20cd2bfa-d1f0-4a34-8497-8674d7cbb85e
+œ
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "b".(½ô†ï8ù²¢õ1J$c1872b15-4bb5-4c1e-8289-1b5adb4350eb
+¬
+java:S1488R"dImmediately return this expression instead of assigning it to the temporary variable "affectedRows".(¹Öóıÿÿÿÿ8ù²¢õ1J$4f52799a-6c47-4c1b-93b1-27bbd2c1ea0f
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø²ÑÄúÿÿÿÿ8·é¢õ1
+’
+java:S2095@"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ĞÿŸÓ8ÌÚ³¢õ1J$0aad7a70-ad8e-444c-9d71-583a702cf928
+l
+java:S2095'"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ĞÿŸÓ8·é¢õ1
+l
+java:S2095P"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ĞÿŸÓ8·é¢õ1
+l
+java:S2095_"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(µÑª·8·é¢õ1
+g
+java:S6905&"Don't use the query "SELECT *".(ÃÁ§úÿÿÿÿ8§ù²¢õ1J$dc0d63b7-9ec5-475f-a9a1-b67ed352d6bc
+b
+java:S6905_"Don't use the query "SELECT *".(µÑª·8¸ù²¢õ1J$1fca39e2-af28-4025-9d81-be4b83e39e80

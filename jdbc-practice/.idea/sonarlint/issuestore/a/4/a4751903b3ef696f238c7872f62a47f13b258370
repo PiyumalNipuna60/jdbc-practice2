@@ -1,5 +1,0 @@
-
-	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8®’¼Òô1J$d6956884-bf8b-4ddb-801a-780717dff85d
-—
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¥Òš¤ÿÿÿÿÿ8½’¼Òô1J$20cc351c-fcee-4578-b709-bf2d40a6f035
-~	java:S125"<This block of commented-out lines of code should be removed.(Åİ¼§8É’¼Òô1J$0b64ae2e-f06d-4bee-b92a-00efefa33a0c

@@ -1,0 +1,26 @@
+
+‡	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$128788db-1104-449b-8668-50e10d0a70b2
+Œ	java:S117}"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ğ‚¸J$53f14604-f577-489f-94da-578944442a92
+•
+java:S1104"TMake mainPane a static final constant or non-public and provide accessors if needed.(ÚÓí ûÿÿÿÿJ$62eae05b-8579-4559-9239-5590d25d0f5d
+s
+java:S1172E"2Remove this unused method parameter "actionEvent".(±ÎßÂşÿÿÿÿJ$9a26553a-1948-40be-97a5-e32e9c79a58f
+k	java:S106L"+Replace this use of System.out by a logger.(—‹§úÿÿÿÿJ$610f77e2-997d-4021-87b8-960aeee480fb
+n
+java:S1172V"2Remove this unused method parameter "actionEvent".(‘¡§J$9526412f-7992-431c-a223-0b9944f39db4
+n
+java:S1172^"2Remove this unused method parameter "actionEvent".(¼»Í´J$7b69cae1-5733-4150-9908-3b624978b537
+f	java:S106i"+Replace this use of System.out by a logger.(şêû®J$928af0c9-5a6d-494f-b091-ac76145990c3
+n
+java:S1172o"2Remove this unused method parameter "actionEvent".(Ôé¹J$c30e9152-9512-46bc-b9a1-fa83b98b77cb
+t
+java:S1172"2Remove this unused method parameter "actionEvent".(ôÛƒüÿÿÿÿJ$f65ca98c-8e8a-4225-85c2-323787a9139e
+t
+java:S1172˜"2Remove this unused method parameter "actionEvent".(‚İ’ÃşÿÿÿÿJ$e2b277fe-8e66-4e3c-94a8-e823bcb3c88e
+t
+java:S1172¡"2Remove this unused method parameter "actionEvent".(æïéˆûÿÿÿÿJ$a0f98f14-c2f8-4f58-94cf-09d2ffbc4674
+w	java:S125¥"<This block of commented-out lines of code should be removed.(œŸ¥TJ$685258ab-a206-4393-adc2-9a94bd23df0a
+t
+java:S1172©"2Remove this unused method parameter "actionEvent".(ªËË‡şÿÿÿÿJ$6515b000-836c-4116-8ef6-17f92a8c0c96
+{
+java:S1172±"2Remove this unused method parameter "actionEvent".(ê‘ü£şÿÿÿÿ8ı°ß¢õ1J$4b61088c-4c65-4a4f-a9e8-5672e99a9e97

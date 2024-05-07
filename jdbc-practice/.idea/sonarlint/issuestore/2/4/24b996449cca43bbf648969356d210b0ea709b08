@@ -1,3 +1,13 @@
 
-	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8·Ó®Óô1J$d7d04323-d498-4874-b816-943f172bbaf8
-~	java:S125"<This block of commented-out lines of code should be removed.(Åİ¼§8ÂÓ®Óô1J$da8f7bbf-1691-443c-9d87-8cb7bb0d0871
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8·Ó®Óô1J$43fa3711-71d3-4a2c-b2ae-c52a9cc661f6
+¸
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Êå›úûÿÿÿÿ8ËÆµ¢õ1J$2c8e2ccb-0887-4e81-83b6-0053806da9a5
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¥Òš¤ÿÿÿÿÿ8¬»é¢õ1
+n
+java:S1168"+Return an empty collection instead of null.(¥¹ï8‰³¶¢õ1J$daf15f3f-5bc9-4d40-a15d-6fd12962920c
+k
+java:S1172""(Remove this unused method parameter "s".(»Åáã8âä·¢õ1J$1c350f76-bdfc-4735-85bf-50252d5877ec
+~	java:S125'"<This block of commented-out lines of code should be removed.(Åİ¼§8ÂÓ®Óô1J$596d5726-088c-42f4-ae4e-ed5268cf561c
+S
+java:S1128"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:8µ»é¢õ1
