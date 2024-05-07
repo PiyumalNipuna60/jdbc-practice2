@@ -41,6 +41,7 @@ public class OrderFormController implements Initializable {
     public TableColumn colTotal;
     public TableColumn colAction;
 
+
     public void btnAddToCart(ActionEvent actionEvent) {
         // sout txtfeild data print
     }
@@ -50,6 +51,13 @@ public class OrderFormController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        setCustomerValues();
+    }
+
+    private void setCustomerValues() {
+        CustomerModel customerModel = new CustomerModel();
+        ArrayList<String> allId = customerModel.getAllId();
+        cmbCustomerId.setItems(FXCollections.observableList(allId));
     }
 
     public void cmbCOdeOnAction(ActionEvent actionEvent) {

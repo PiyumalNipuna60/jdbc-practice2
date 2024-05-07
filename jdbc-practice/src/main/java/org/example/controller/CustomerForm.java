@@ -3,11 +3,9 @@ package org.example.controller;
 import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Alert;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.input.KeyEvent;
 import org.example.db.DBConnection;
 import org.example.dto.CustomerDto;
 import org.example.model.CustomerModel;
@@ -31,6 +29,7 @@ public class CustomerForm implements Initializable {
     public TableColumn colAddress;
     public TableColumn colContact;
     public TextField txtId;
+    public ComboBox cmbId;
 
     public void btnSaveOnAction(ActionEvent actionEvent) {
         String id = txtId.getText();
@@ -120,6 +119,13 @@ public class CustomerForm implements Initializable {
         colContact.setCellValueFactory(new PropertyValueFactory<>("contact"));
 
         loadTableData();
+        loadComboId();
+    }
+
+    private void loadComboId() {
+        CustomerModel customerModel = new CustomerModel();
+        ArrayList<String> allId = customerModel.getAllId();
+        cmbId.setItems(FXCollections.observableList(allId));
     }
 
     private void loadTableData() {
@@ -144,5 +150,22 @@ public class CustomerForm implements Initializable {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public void searchOnKeyRelesed(KeyEvent keyEvent) {
+        CustomerModel customerModel = new CustomerModel();
+        CustomerDto customerDto = customerModel.searchCustomer(txtId.getText());
+
+        txtName.setText(customerDto.getName());
+        txtContact.setText(customerDto.getContact());
+        txtAddress.setText(customerDto.getAddress());
+        txtAge.setText(customerDto.getAge());
+    }
+
+    public void cmbOnAction(ActionEvent actionEvent) {
+        Object value = cmbId.getValue();
+        CustomerModel customerModel = new CustomerModel();
+        CustomerDto customerDto = customerModel.searchCustomer(String.valueOf(value));
+//        cmbId.setValue();
     }
 }

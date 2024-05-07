@@ -1,76 +1,89 @@
 
-	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÜÜžÓô1J$dcbe146c-36cf-43b6-9040-173acc7a69a5
-	java:S112g"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÝÜžÓô1J$742f907d-ff27-4685-aef1-59e00973ae00
-Ž	java:S112‘"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÝÜžÓô1J$260d24d7-5c60-4bfa-aafa-efbf03b310b6
+	java:S112O"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÞÀ”¤õ1J$565d2975-96bf-4e50-b796-5d4853cc593c
+	java:S112f"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ßÀ”¤õ1J$b4ec196e-37e3-49cf-980d-22d88ff39961
+Ž	java:S112—"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ßÀ”¤õ1J$ca1a36cf-e948-4a78-a558-42a8c7c94154
 w
-java:S3740"/Provide the parametrized type for this generic.(•³îÞùÿÿÿÿ8ãÜžÓô1J$f7f6ac4c-2cc6-49b3-8226-44043d14f823
+java:S3740"/Provide the parametrized type for this generic.(•³îÞùÿÿÿÿ8ßÀ”¤õ1J$bb15c402-7371-48c6-9943-fcdf0dcbde6b
 w
-java:S3740"/Provide the parametrized type for this generic.(â‡ëùÿÿÿÿ8ãÜžÓô1J$66876634-2f15-466e-b8fe-76a694be6591
+java:S3740"/Provide the parametrized type for this generic.(â‡ëùÿÿÿÿ8àÀ”¤õ1J$c484241b-e256-40f8-be14-1c4d32d942d6
 w
-java:S3740"/Provide the parametrized type for this generic.(ÊÚÎ¨ùÿÿÿÿ8ãÜžÓô1J$a78c0999-016e-44b1-ad06-8988918ab443
+java:S3740"/Provide the parametrized type for this generic.(ÊÚÎ¨ùÿÿÿÿ8àÀ”¤õ1J$835f3540-0514-444b-bceb-eec3469589f2
 r
-java:S3740"/Provide the parametrized type for this generic.(¯ÿý°8ãÜžÓô1J$557c8344-120a-490a-ba1e-d733c79df99e
+java:S3740"/Provide the parametrized type for this generic.(¯ÿý°8àÀ”¤õ1J$8e657ea4-d60f-4324-9475-3d50075d09b7
 r
-java:S3740 "/Provide the parametrized type for this generic.(Þ˜ýÚ8ãÜžÓô1J$ef2a1cc3-7ed1-4db3-9596-b067e6216d04
+java:S3740"/Provide the parametrized type for this generic.(Þ˜ýÚ8àÀ”¤õ1J$a08f0b56-c8ed-41ee-be56-9902d77b8d73
+w
+java:S3740 "/Provide the parametrized type for this generic.(˜š÷±þÿÿÿÿ8àÀ”¤õ1J$03beff52-34c0-45ac-8911-8acbcae5e961
 –
-java:S1104"SMake txtName a static final constant or non-public and provide accessors if needed.(ºßÕû8óÜžÓô1J$7be74ab8-4fa7-4cd0-b66d-d82508d2d241
+java:S1104"SMake txtName a static final constant or non-public and provide accessors if needed.(ºßÕû8âÀ”¤õ1J$28e83244-acd3-44a9-9baa-8b31040b8a39
 •
-java:S1104"RMake txtAge a static final constant or non-public and provide accessors if needed.(ž²ó™8óÜžÓô1J$03258d3e-6a30-4458-bb59-eccc8c84ad56
+java:S1104"RMake txtAge a static final constant or non-public and provide accessors if needed.(ž²ó™8âÀ”¤õ1J$a4867b63-4998-4b49-aec0-1d40fb7275ad
 ž
-java:S1104"VMake txtAddress a static final constant or non-public and provide accessors if needed.(ºåŽýÿÿÿÿ8óÜžÓô1J$4cc52f6f-0582-4384-80d7-c9dcc36ec780
+java:S1104"VMake txtAddress a static final constant or non-public and provide accessors if needed.(ºåŽýÿÿÿÿ8âÀ”¤õ1J$76336c45-bb6a-4ee8-8a72-a11a69a93c30
 ž
-java:S1104"VMake txtContact a static final constant or non-public and provide accessors if needed.(ýõ¸£ÿÿÿÿÿ8óÜžÓô1J$eaa7f9bd-7489-403b-af00-978ac3480f7f
+java:S1104"VMake txtContact a static final constant or non-public and provide accessors if needed.(ýõ¸£ÿÿÿÿÿ8âÀ”¤õ1J$def4724f-c667-4b73-b5c6-da30816dd55f
 Ÿ
-java:S1104"WMake tblCustomer a static final constant or non-public and provide accessors if needed.(•³îÞùÿÿÿÿ8óÜžÓô1J$7af8e2e8-69e5-44af-84dd-9627e3bb9828
+java:S1104"WMake tblCustomer a static final constant or non-public and provide accessors if needed.(•³îÞùÿÿÿÿ8âÀ”¤õ1J$2d84a874-72ec-47d1-8c40-740df01ac29f
 š
-java:S1104"RMake colAge a static final constant or non-public and provide accessors if needed.(â‡ëùÿÿÿÿ8óÜžÓô1J$b2c4d7c6-f273-4a33-bcb4-5384f54fda2e
+java:S1104"RMake colAge a static final constant or non-public and provide accessors if needed.(â‡ëùÿÿÿÿ8âÀ”¤õ1J$55044dde-edb7-40cf-be01-d5d7d9f5f1a4
 ›
-java:S1104"SMake colName a static final constant or non-public and provide accessors if needed.(ÊÚÎ¨ùÿÿÿÿ8óÜžÓô1J$41b9c13b-5fc8-4dec-8fed-797be0f308c4
+java:S1104"SMake colName a static final constant or non-public and provide accessors if needed.(ÊÚÎ¨ùÿÿÿÿ8âÀ”¤õ1J$6ee16a84-8fdc-4805-a0c7-3a3de3341932
 ™
-java:S1104"VMake colAddress a static final constant or non-public and provide accessors if needed.(¯ÿý°8ôÜžÓô1J$06cb61e3-7659-4cc9-9f3a-a2ad67ccddd3
+java:S1104"VMake colAddress a static final constant or non-public and provide accessors if needed.(¯ÿý°8âÀ”¤õ1J$b9babbdd-f7c8-4899-ac95-d7ed0dec447b
 ™
-java:S1104 "VMake colContact a static final constant or non-public and provide accessors if needed.(Þ˜ýÚ8ôÜžÓô1J$1705a1b0-97af-43b1-9cfb-45d0bc44c29a
+java:S1104"VMake colContact a static final constant or non-public and provide accessors if needed.(Þ˜ýÚ8âÀ”¤õ1J$afc13184-9657-4fe7-879f-391e7b6ecfba
 ™
-java:S1104!"QMake txtId a static final constant or non-public and provide accessors if needed.(â…ô‰øÿÿÿÿ8ôÜžÓô1J$de41ea9d-23ee-4d35-a7bc-94ef9ed044ed
+java:S1104"QMake txtId a static final constant or non-public and provide accessors if needed.(â…ô‰øÿÿÿÿ8âÀ”¤õ1J$b86743a7-fbd8-4088-81c8-c59358b5f2db
+™
+java:S1104 "QMake cmbId a static final constant or non-public and provide accessors if needed.(˜š÷±þÿÿÿÿ8âÀ”¤õ1J$ba2dfb78-7324-4f26-9e18-440680c116f5
+“
+java:S2095ˆ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(˜ó²â8”Á”¤õ1J$0a3d4ea7-e003-4061-a137-a8c9d076b667
 —
-java:S2095D"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(’©Åóùÿÿÿÿ8ÝÝžÓô1J$541d39ff-d1b6-42b1-b4d2-e80a34c3ad2c
-m
-java:S2095‚"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(˜ó²â8êºé¢õ1
+java:S2095C"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(’©Åóùÿÿÿÿ8•Á”¤õ1J$a47915c2-d971-445d-9e85-ffe47405e99b
 ’
-java:S2095Y"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ð§ÚÊ8ÛÝžÓô1J$28bdefd3-2ba2-4833-bd54-9831002c85f2
+java:S2095X"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ð§ÚÊ8•Á”¤õ1J$c41d49df-6d6b-4783-a3ef-4614b7806bde
 t
-java:S1172#"2Remove this unused method parameter "actionEvent".(õÝÞ78æÝžÓô1J$12219a96-9081-4824-98f9-280cc4f99f2c
+java:S1172""2Remove this unused method parameter "actionEvent".(õÝÞ78™Á”¤õ1J$048aa471-474f-4d9a-add0-ffa19155e632
 †
-java:S1854;">Remove this useless assignment to local variable "connection".(ß»¨Ãûÿÿÿÿ8ïÝžÓô1J$f1de33f6-4421-426d-9a0d-326e3f58ae2d
+java:S1854:">Remove this useless assignment to local variable "connection".(ß»¨Ãûÿÿÿÿ8œÁ”¤õ1J$84bafc35-4a42-4ab4-a472-591e46ac7cca
 ~
-java:S18549";Remove this useless assignment to local variable "contact".(ôÁ’ˆ8ðÝžÓô1J$417054cf-84c2-43b8-bbde-54d50cdb8e5d
+java:S18548";Remove this useless assignment to local variable "contact".(ôÁ’ˆ8œÁ”¤õ1J$25491a79-327e-48f3-b2fa-d927548180c2
 ƒ
-java:S18548";Remove this useless assignment to local variable "address".(¤õ—Öúÿÿÿÿ8ðÝžÓô1J$f01be55f-30b4-42af-a06c-92b1e86a0230
+java:S18547";Remove this useless assignment to local variable "address".(¤õ—Öúÿÿÿÿ8œÁ”¤õ1J$fbc118af-72b9-4de2-af2d-ee453eeab98f
 
-java:S18547"7Remove this useless assignment to local variable "age".(›¥˜„ýÿÿÿÿ8ðÝžÓô1J$bb47111c-9d48-42ef-b516-c3403889bbdc
+java:S18546"7Remove this useless assignment to local variable "age".(›¥˜„ýÿÿÿÿ8œÁ”¤õ1J$f9b4c646-0690-4b52-8888-ebfc740181b9
 €
-java:S18546"8Remove this useless assignment to local variable "name".(ÝëÌÖûÿÿÿÿ8ðÝžÓô1J$94e3c0b0-dc09-444e-868d-d123193154bd
+java:S18545"8Remove this useless assignment to local variable "name".(ÝëÌÖûÿÿÿÿ8œÁ”¤õ1J$47791721-9d9e-4693-a929-9b76e25b1353
 y
-java:S18545"6Remove this useless assignment to local variable "id".(Àˆ´ò8ðÝžÓô1J$589d2722-664e-4846-8cee-86da399aeed8
+java:S18544"6Remove this useless assignment to local variable "id".(Àˆ´ò8œÁ”¤õ1J$72fe73aa-c2ea-4f07-8ed8-dba9b0a9cac2
 z
-java:S11724"2Remove this unused method parameter "actionEvent".(¿˜å•øÿÿÿÿ8ðÝžÓô1J$f3a83245-d884-4cc4-85f9-7316090e58f7
+java:S11723"2Remove this unused method parameter "actionEvent".(¿˜å•øÿÿÿÿ8œÁ”¤õ1J$1edfa7a3-79e9-4919-9ffb-cf740a341637
 j
-java:S14815"'Remove this unused "id" local variable.(Àˆ´ò8ñÝžÓô1J$f8d8d9b7-3ef0-4680-8e2a-77e93a14760c
+java:S14814"'Remove this unused "id" local variable.(Àˆ´ò8žÁ”¤õ1J$84b314d8-cde5-4d0a-9bba-38f9f2f22a85
 q
-java:S14816")Remove this unused "name" local variable.(ÝëÌÖûÿÿÿÿ8òÝžÓô1J$12c0ba9f-c192-4b77-af6c-7836551e2ecc
+java:S14815")Remove this unused "name" local variable.(ÝëÌÖûÿÿÿÿ8žÁ”¤õ1J$9025176e-5b3a-47d1-9b7f-7e465a91e78c
 p
-java:S14817"(Remove this unused "age" local variable.(›¥˜„ýÿÿÿÿ8òÝžÓô1J$062677ec-fac6-4916-91ef-736acae49623
+java:S14816"(Remove this unused "age" local variable.(›¥˜„ýÿÿÿÿ8žÁ”¤õ1J$67d52cf2-76e1-4fc8-8cde-2fd79234a7c2
 t
-java:S14818",Remove this unused "address" local variable.(¤õ—Öúÿÿÿÿ8óÝžÓô1J$21a6383b-db8d-42ff-9716-5cb31ee963d4
+java:S14817",Remove this unused "address" local variable.(¤õ—Öúÿÿÿÿ8žÁ”¤õ1J$c1ef159b-911c-415a-9693-3e50223faa45
 o
-java:S14819",Remove this unused "contact" local variable.(ôÁ’ˆ8óÝžÓô1J$b980a2ce-b310-4092-94c0-2436d326b662
+java:S14818",Remove this unused "contact" local variable.(ôÁ’ˆ8žÁ”¤õ1J$1a75d526-9f99-42b2-ad5f-2eb9963f8ff4
 w
-java:S1481;"/Remove this unused "connection" local variable.(ß»¨Ãûÿÿÿÿ8ôÝžÓô1J$272478f8-9f47-47e4-a41d-ae1982be47f5
+java:S1481:"/Remove this unused "connection" local variable.(ß»¨Ãûÿÿÿÿ8ŸÁ”¤õ1J$248706f2-54dc-4125-91a3-6862cd9fd50e
 u
-java:S1172?"2Remove this unused method parameter "actionEvent".(žŒ“‘8÷ÝžÓô1J$4b1c2c04-01f5-458f-b61f-1eca3cf03e8f
+java:S1172>"2Remove this unused method parameter "actionEvent".(žŒ“‘8ŸÁ”¤õ1J$ffdd088c-f720-484f-9b4b-b73765e5ffde
 u
-java:S1172T"2Remove this unused method parameter "actionEvent".(áÄ´ü8€ÞžÓô1J$bce8e92f-2233-40bd-ad49-5b8041f32fe3
+java:S1172S"2Remove this unused method parameter "actionEvent".(áÄ´ü8¨Á”¤õ1J$ab05050a-fe07-425a-9b8e-9270d5cd1371
 b
-java:S6905Y"Don't use the query "SELECT *".(Ð§ÚÊ8…ÞžÓô1J$c464d69c-0921-4558-b7e1-076f260cf05f
+java:S6905X"Don't use the query "SELECT *".(Ð§ÚÊ8«Á”¤õ1J$9c94525a-445c-4696-9848-1f1481692975
 c
-java:S6905‚"Don't use the query "SELECT *".(˜ó²â8›ÞžÓô1J$4e98a6c6-b18a-4a11-ac32-58889163b2c7
+java:S6905ˆ"Don't use the query "SELECT *".(˜ó²â8³Á”¤õ1J$ecdad6a6-2e5f-4d36-9960-764f8ab5191e
+x
+java:S1172›"/Remove this unused method parameter "keyEvent".(Ážžöþÿÿÿÿ8µÁ”¤õ1J$bc0c6c45-46e2-49c5-b63a-04522e1b78d9
+ˆ
+java:S1854¨"?Remove this useless assignment to local variable "customerDto".(¢£³¿ýÿÿÿÿ8·Á”¤õ1J$ca027136-a31c-4a9d-962b-36748c32dbee
+v
+java:S1172¥"2Remove this unused method parameter "actionEvent".(ÄÖ–²8·Á”¤õ1J$98fe66b7-06ad-436e-8ece-df2efd313a62
+y
+java:S1481¨"0Remove this unused "customerDto" local variable.(¢£³¿ýÿÿÿÿ8¸Á”¤õ1J$62f954a8-e616-4494-a56f-eeb33e61c5a1
+„	java:S125©"<This block of commented-out lines of code should be removed.(è‰òªùÿÿÿÿ8×Ÿ•¤õ1J$d114fdef-0b17-4158-9d41-c70dcc310a01

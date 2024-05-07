@@ -23,15 +23,15 @@ CREATE TABLE Item(
 
 create table Orders(
    orderId varchar(35) primary key,
-   id varchar(35) not null,
+   id int not null,
    date date not null,
-   constraint foreign key (id) references Customer(id)
+   constraint foreign key (id) references customer(id)
    on delete cascade on update cascade
 );
 
 create table OrderDetail(
     orderId varchar(35) not null ,
-    ItemCode varchar(35) not null,
+    ItemCode varchar(10) not null,
     qty int not null,
     unitPrice double not null,
     constraint foreign key (orderId) references Orders(orderId)
