@@ -21,6 +21,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.ResourceBundle;
 import java.util.regex.Pattern;
@@ -62,7 +63,6 @@ public class CustomerForm implements Initializable {
     public void txtOnKeyReleased(KeyEvent keyEvent) {
         ValidateUtil.validation(map);
     }
-
 
 
     public void btnSaveOnAction(ActionEvent actionEvent) {
@@ -194,11 +194,19 @@ public class CustomerForm implements Initializable {
     }
 
     public void btnPrintOnAction(ActionEvent actionEvent) {
+
+        HashMap hashmap = new HashMap<>();
+        hashmap.put("id", txtId.getText());
+        hashmap.put("name", txtName.getText());
+        hashmap.put("age", txtAge.getText());
+        hashmap.put("address", txtAddress.getText());
+        hashmap.put("contact", txtContact.getText());
+
         try {
-            JasperDesign load = JRXmlLoader.load(this.getClass().getResourceAsStream("/view/"));
+            JasperDesign load = JRXmlLoader.load(this.getClass().getResourceAsStream("/view/report/customerForm.jrxml"));
             JasperReport jasperReport = JasperCompileManager.compileReport(load);
-            JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, null, new JREmptyDataSource());
-            JasperViewer.viewReport(jasperPrint,false);
+            JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, hashmap, new JREmptyDataSource());
+            JasperViewer.viewReport(jasperPrint, false);
         } catch (JRException e) {
             throw new RuntimeException(e);
         }
