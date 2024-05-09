@@ -42,5 +42,6 @@
       <TextField fx:id="txtId" layoutX="262.0" layoutY="103.0" onKeyReleased="#txtOnKeyReleased" />
       <Label layoutX="137.0" layoutY="108.0" text="Id" />
       <ComboBox fx:id="cmbId" layoutX="61.0" layoutY="39.0" onAction="#cmbOnAction" prefWidth="150.0" />
+      <Button layoutX="648.0" layoutY="621.0" mnemonicParsing="false" onAction="#btnPrintOnAction" prefHeight="31.0" prefWidth="80.0" text="Print" />
    </children>
 </AnchorPane>

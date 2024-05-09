@@ -1,0 +1,8 @@
+
+ª
+java:S1319	"gThe type of "map2" should be an interface such as "Map" rather than the implementation "LinkedHashMap".(·Πν8“‚συ1J$a08abf2d-b2fb-48c1-86b7-8008f291aab3
+}
+java:S1118":Add a private constructor to hide the implicit public one.(Ψάφÿ8κΉσυ1J$abfcb4c2-9346-4a7a-8a90-2d06e1bc67b3
+w
+java:S2864
+"4Iterate over the "entrySet" instead of the "keySet".(¬Ψέ”8–—συ1J$bf2dfed5-77cf-4ab9-9f89-2bba7ce06c00

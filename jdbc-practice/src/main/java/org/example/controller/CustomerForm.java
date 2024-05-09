@@ -6,6 +6,10 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.KeyEvent;
+import net.sf.jasperreports.engine.*;
+import net.sf.jasperreports.engine.design.JasperDesign;
+import net.sf.jasperreports.engine.xml.JRXmlLoader;
+import net.sf.jasperreports.view.JasperViewer;
 import org.example.db.DBConnection;
 import org.example.dto.CustomerDto;
 import org.example.model.CustomerModel;
@@ -187,5 +191,16 @@ public class CustomerForm implements Initializable {
         CustomerModel customerModel = new CustomerModel();
         CustomerDto customerDto = customerModel.searchCustomer(String.valueOf(value));
 //        cmbId.setValue();
+    }
+
+    public void btnPrintOnAction(ActionEvent actionEvent) {
+        try {
+            JasperDesign load = JRXmlLoader.load(this.getClass().getResourceAsStream("/view/"));
+            JasperReport jasperReport = JasperCompileManager.compileReport(load);
+            JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, null, new JREmptyDataSource());
+            JasperViewer.viewReport(jasperPrint,false);
+        } catch (JRException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
