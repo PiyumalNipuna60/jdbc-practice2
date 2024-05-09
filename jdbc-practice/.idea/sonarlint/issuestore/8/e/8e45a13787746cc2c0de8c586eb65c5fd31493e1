@@ -1,7 +1,0 @@
-
-`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ
-D
-java:S1128".Remove this unused import 'javafx.scene.Node'.(ÑÖ¬ï
-S
-java:S1128"8Remove this unused import 'org.example.dto.CustomerDto'.(¦µ©ÿÿÿÿÿ

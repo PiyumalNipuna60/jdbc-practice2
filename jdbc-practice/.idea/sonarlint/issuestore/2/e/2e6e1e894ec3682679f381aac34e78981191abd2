@@ -1,10 +1,0 @@
-
-“
-java:S1104
-"WMake txtUserName a static final constant or non-public and provide accessors if needed.(Äù±ÚJ$338e2f41-9499-464d-b151-5cc9f8cdfa3f
-“
-java:S1104"WMake txtPassword a static final constant or non-public and provide accessors if needed.(¨ğûJ$d63e35af-49f6-4c53-b7d9-8bb873d82b74
-s
-java:S1172"2Remove this unused method parameter "actionEvent".(ÙõášşÿÿÿÿJ$f28b11fc-f3b8-431b-90d8-ffce3f09055f
-h
-java:S1125"'Remove the unnecessary boolean literal.(Ö¿Ô«úÿÿÿÿJ$d3d1fb03-1ecd-4800-bd5d-94e4af85816d

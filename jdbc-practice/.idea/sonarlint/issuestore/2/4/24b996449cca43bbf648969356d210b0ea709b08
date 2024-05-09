@@ -1,16 +1,0 @@
-
-	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8´Ñã£õ1J$37bb7c41-7d10-470a-a0f0-2e1a60895ec9
-	java:S112*"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¸Ñã£õ1J$f4daef65-8bd9-4e45-bc74-06b337bfb73a
-	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¸Ñã£õ1J$aafbdcbb-0d3e-4527-b2d4-8bc30a3542d8
-¸
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Êå›úûÿÿÿÿ8ºÑã£õ1J$23e22569-89af-4ca5-bc52-edbccf401192
-—
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¥Òš¤ÿÿÿÿÿ8ÎÑã£õ1J$2f4fc50d-116d-4c4f-9aeb-23908c4ca308
-’
-java:S20951"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ğ§ÚÊ8ÎÑã£õ1J$b9dde4e5-b1e5-4fc2-992b-f57e09bed0dd
-’
-java:S2095""OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(í×Ñì8ÎÑã£õ1J$5a21485f-286c-4e85-8c4f-be36d1bd6034
-b
-java:S69051"Don't use the query "SELECT *".(Ğ§ÚÊ8ÖÑã£õ1J$2c3ad1cd-2df4-41cf-8eea-1017d231d1cb
-y
-java:S1128"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:8ÙÑã£õ1J$e2062a5d-abee-45ae-b27f-d3d3e3ccc8d0

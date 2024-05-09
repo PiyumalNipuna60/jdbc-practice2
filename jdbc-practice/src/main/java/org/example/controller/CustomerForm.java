@@ -9,6 +9,7 @@ import javafx.scene.input.KeyEvent;
 import org.example.db.DBConnection;
 import org.example.dto.CustomerDto;
 import org.example.model.CustomerModel;
+import org.example.util.ValidateUtil;
 
 import java.net.URL;
 import java.sql.Connection;
@@ -16,7 +17,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.ResourceBundle;
+import java.util.regex.Pattern;
 
 public class CustomerForm implements Initializable {
     public TextField txtName;
@@ -30,6 +33,33 @@ public class CustomerForm implements Initializable {
     public TableColumn colContact;
     public TextField txtId;
     public ComboBox cmbId;
+
+    LinkedHashMap<TextField, Pattern> map = new LinkedHashMap();
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        colName.setCellValueFactory(new PropertyValueFactory<>("name"));
+        colAge.setCellValueFactory(new PropertyValueFactory<>("age"));
+        colAddress.setCellValueFactory(new PropertyValueFactory<>("address"));
+        colContact.setCellValueFactory(new PropertyValueFactory<>("contact"));
+
+        loadTableData();
+        loadComboId();
+
+        Pattern patternId = Pattern.compile("^(C0)[0-9]{1,5}$");
+        Pattern patternName = Pattern.compile("^[A-z]{3,}$");  //[0-9 a-z]{10}
+        Pattern patternAge = Pattern.compile("^[0-9]{1,3}$"); //[0-9 A-z / .]{3,} // ^[0-9]{10}$  //^(070 |071 | 072 | 076) [0-9] {7}$
+
+        map.put(txtId, patternId);
+        map.put(txtName, patternName);
+        map.put(txtAge, patternAge);
+    }
+
+    public void txtOnKeyReleased(KeyEvent keyEvent) {
+        ValidateUtil.validation(map);
+    }
+
+
 
     public void btnSaveOnAction(ActionEvent actionEvent) {
         String id = txtId.getText();
@@ -111,16 +141,6 @@ public class CustomerForm implements Initializable {
         txtName.clear();
     }
 
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
-        colName.setCellValueFactory(new PropertyValueFactory<>("name"));
-        colAge.setCellValueFactory(new PropertyValueFactory<>("age"));
-        colAddress.setCellValueFactory(new PropertyValueFactory<>("address"));
-        colContact.setCellValueFactory(new PropertyValueFactory<>("contact"));
-
-        loadTableData();
-        loadComboId();
-    }
 
     private void loadComboId() {
         CustomerModel customerModel = new CustomerModel();
@@ -135,7 +155,7 @@ public class CustomerForm implements Initializable {
             Connection connection = DBConnection.getInstance().getConnection();
             PreparedStatement pstm = connection.prepareStatement("select * from customer");
             ResultSet resultSet = pstm.executeQuery();
-            while (resultSet.next()){
+            while (resultSet.next()) {
                 CustomerDto customerDto = new CustomerDto(
                         resultSet.getString(1),
                         resultSet.getString(2),

@@ -12,10 +12,10 @@
 
 <AnchorPane prefHeight="674.0" prefWidth="778.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.CustomerForm">
    <children>
-      <TextField fx:id="txtName" layoutX="262.0" layoutY="149.0" />
-      <TextField fx:id="txtAge" layoutX="262.0" layoutY="209.0" />
-      <TextField fx:id="txtAddress" layoutX="262.0" layoutY="264.0" />
-      <TextField fx:id="txtContact" layoutX="262.0" layoutY="312.0" />
+      <TextField fx:id="txtName" layoutX="262.0" layoutY="149.0" onKeyReleased="#txtOnKeyReleased" />
+      <TextField fx:id="txtAge" layoutX="262.0" layoutY="209.0" onKeyReleased="#txtOnKeyReleased" />
+      <TextField fx:id="txtAddress" layoutX="262.0" layoutY="264.0" onKeyReleased="#txtOnKeyReleased" />
+      <TextField fx:id="txtContact" layoutX="262.0" layoutY="312.0" onKeyReleased="#txtOnKeyReleased" />
       <Label layoutX="137.0" layoutY="154.0" text="name" />
       <Label layoutX="136.0" layoutY="214.0" text="age" />
       <Label layoutX="137.0" layoutY="269.0" text="Adddress" />
@@ -39,7 +39,7 @@
          </font>
       </Label>
       <Separator layoutX="302.0" layoutY="89.0" prefWidth="200.0" />
-      <TextField fx:id="txtId" layoutX="262.0" layoutY="103.0" onKeyReleased="#searchOnKeyRelesed" />
+      <TextField fx:id="txtId" layoutX="262.0" layoutY="103.0" onKeyReleased="#txtOnKeyReleased" />
       <Label layoutX="137.0" layoutY="108.0" text="Id" />
       <ComboBox fx:id="cmbId" layoutX="61.0" layoutY="39.0" onAction="#cmbOnAction" prefWidth="150.0" />
    </children>
