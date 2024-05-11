@@ -1,0 +1,28 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(êâ±„şÿÿÿÿ
+`	java:S112V"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112n"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+o
+java:S2293["YReplace the type specification in this constructor call with the diamond operator ("<>").(ĞøÂ·
+‹
+java:S1319Z"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‹ç”Ûüÿÿÿÿ
+k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÂÛùÿÿÿÿ
+o
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "b".(½ô†ï
+
+java:S1488R"dImmediately return this expression instead of assigning it to the temporary variable "affectedRows".(¹Öóıÿÿÿÿ
+e
+java:S2095@"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ĞÿŸÓ
+e
+java:S2095_"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(µÑª·
+e
+java:S2095'"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ĞÿŸÓ
+e
+java:S2095P"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ĞÿŸÓ
+j
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ø²ÑÄúÿÿÿÿ
+:
+java:S6905&"Don't use the query "SELECT *".(ÃÁ§úÿÿÿÿ
+5
+java:S6905_"Don't use the query "SELECT *".(µÑª·
