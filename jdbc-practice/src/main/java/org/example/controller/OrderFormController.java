@@ -5,10 +5,17 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
+import org.example.Tm.ItemTm;
 import org.example.dto.CustomerDto;
+import org.example.dto.ItemDto;
+import org.example.dto.OrderDto;
 import org.example.model.CustomerModel;
+import org.example.model.ItemModel;
+import org.example.model.OrderModel;
 
 import java.net.URL;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
 
@@ -40,18 +47,56 @@ public class OrderFormController implements Initializable {
     public TableColumn colQty;
     public TableColumn colTotal;
     public TableColumn colAction;
-
+    private ObservableList<OrderDto> observableList = FXCollections.observableArrayList();
+    private double fullTotal=0;
 
     public void btnAddToCart(ActionEvent actionEvent) {
-        // sout txtfeild data print
+        String itemCode = String.valueOf(cmbCode.getValue());
+        int qty = Integer.parseInt(txtQty.getText());
+        double unitPrice = Double.parseDouble(txtUnitPrice.getText());
+        String description = txtDescription.getText();
+
+        fullTotal += (unitPrice * qty);
+
+        OrderDto orderDto = new OrderDto(itemCode, description, unitPrice, qty, (unitPrice * qty));
+        observableList.add(orderDto);
+        tblOrder.setItems(observableList);
+        txtNetTotal.setText(String.valueOf(fullTotal));
     }
 
-    public void btnPlaceOrder(ActionEvent actionEvent) {
+    public void btnPlaceOrder(ActionEvent actionEvent) throws SQLException {
+        String orderId = txtOrderId.getText();
+        String date = txtOrderDate.getText();
+        String customerId = String.valueOf(cmbCustomerId.getValue());
+        String total = txtNetTotal.getText();
+
+        OrderModel orderModel = new OrderModel();
+        orderModel.saveOrder(orderId,date,customerId,total,observableList);
     }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         setCustomerValues();
+        setItemCOde();
+
+        colCode.setCellValueFactory(new PropertyValueFactory<>("itemCode"));
+        colDescription.setCellValueFactory(new PropertyValueFactory<>("description"));
+        colUnitPrice.setCellValueFactory(new PropertyValueFactory<>("price"));
+        colTotal.setCellValueFactory(new PropertyValueFactory<>("totalPrice"));
+        colQty.setCellValueFactory(new PropertyValueFactory<>("qty"));
+
+
+    }
+
+    private void setItemCOde() {
+        ItemModel itemModel = new ItemModel();
+        ArrayList<ItemTm> all = itemModel.getAll();
+        ArrayList<String> itemCode = new ArrayList<>();
+
+        for (ItemTm tm : all) {
+            itemCode.add(tm.getItemCode());
+        }
+        cmbCode.setItems(FXCollections.observableList(itemCode));
     }
 
     private void setCustomerValues() {
@@ -61,6 +106,12 @@ public class OrderFormController implements Initializable {
     }
 
     public void cmbCOdeOnAction(ActionEvent actionEvent) {
+        String code = String.valueOf(cmbCode.getValue());
+        ItemModel itemModel = new ItemModel();
+        ItemDto itemDto = itemModel.searchItem(code);
+        txtDescription.setText(itemDto.getDescription());
+        txtUnitPrice.setText(String.valueOf(itemDto.getPrice()));
+        txtQtyOnHand.setText(String.valueOf(itemDto.getQty()));
     }
 
     public void cmbCustomerOnAction(ActionEvent actionEvent) {

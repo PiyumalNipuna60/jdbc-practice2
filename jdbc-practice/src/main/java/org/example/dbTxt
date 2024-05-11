@@ -25,6 +25,7 @@ create table Orders(
    orderId varchar(35) primary key,
    id int not null,
    date date not null,
+   price double not null,
    constraint foreign key (id) references customer(id)
    on delete cascade on update cascade
 );
