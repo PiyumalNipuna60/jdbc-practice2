@@ -5,14 +5,16 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+import java.util.Date;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @ToString
 public class OrderDto {
-    private String itemCode;
-    private String description;
+    private String orderId;
+    private String customerId;
+    private String  date;
     private double price;
-    private int qty;
-    private double totalPrice;
+
 }

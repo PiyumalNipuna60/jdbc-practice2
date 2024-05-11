@@ -1,3 +1,13 @@
 
-¤
-java:S1172"aRemove these unused method parameters "orderId", "date", "customerId", "total", "observableList".(Àµƒï8á£¶Çö1J$4925d029-9c1d-4cee-b5e2-c5c699418d41
+’
+java:S20959"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(£òè—8ÿåßÉö1J$ce43e7d5-b656-4230-84b3-44262742ad03
+’
+java:S2095H"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÆıÂÛ8ÿåßÉö1J$f80b6cb8-66d4-48b2-81d7-9e61500782e5
+o
+java:S1125"'Remove the unnecessary boolean literal.(‚õ¬Ÿûÿÿÿÿ8Œ˜åÉö1J$bd31d731-d011-4da7-a310-250ed09bc032
+j
+java:S1125"'Remove the unnecessary boolean literal.(ŠÏ¾Ï8˜åÉö1J$6d5c003c-d550-40c0-aaf6-7643f9c62317
+o
+java:S1125"'Remove the unnecessary boolean literal.(¾¤ô„şÿÿÿÿ8˜åÉö1J$07cd6f9d-be8c-4cb0-bbe5-7beaeaf6610d
+„
+java:S6909:"<Move this loop-invariant setter invocation out of this loop.(ùÎßæûÿÿÿÿ8æßÉö1J$f1da9f0d-fff2-4821-a0c7-541d0d71e4a4

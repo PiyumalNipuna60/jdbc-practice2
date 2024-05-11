@@ -1,6 +1,6 @@
 
-`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
-I
-java:S1121".Extract the assignment out of this expression.(˜¯÷‘ÿÿÿÿÿ
-H
-java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+†	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$7204c49c-ebdb-48c8-9292-ddcd3dd4a4d4
+o
+java:S1121".Extract the assignment out of this expression.(˜¯÷‘ÿÿÿÿÿJ$c94b3b1c-616a-4b8a-9d6c-98e4a32b25d1
+n
+java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿJ$f49e4fb3-5a26-4104-83ad-6b3feb1ffcf4

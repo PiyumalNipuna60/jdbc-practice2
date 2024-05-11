@@ -9,7 +9,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import org.example.Tm.ItemTm;
 import org.example.dto.CustomerDto;
 import org.example.dto.ItemDto;
-import org.example.dto.OrderDto;
+import org.example.dto.OrderDetailsDto;
 import org.example.model.CustomerModel;
 import org.example.model.ItemModel;
 import org.example.model.OrderModel;
@@ -47,7 +47,7 @@ public class OrderFormController implements Initializable {
     public TableColumn colQty;
     public TableColumn colTotal;
     public TableColumn colAction;
-    private ObservableList<OrderDto> observableList = FXCollections.observableArrayList();
+    private ObservableList<OrderDetailsDto> observableList = FXCollections.observableArrayList();
     private double fullTotal=0;
 
     public void btnAddToCart(ActionEvent actionEvent) {
@@ -58,7 +58,7 @@ public class OrderFormController implements Initializable {
 
         fullTotal += (unitPrice * qty);
 
-        OrderDto orderDto = new OrderDto(itemCode, description, unitPrice, qty, (unitPrice * qty));
+        OrderDetailsDto orderDto = new OrderDetailsDto(itemCode, description, unitPrice, qty, (unitPrice * qty));
         observableList.add(orderDto);
         tblOrder.setItems(observableList);
         txtNetTotal.setText(String.valueOf(fullTotal));
@@ -68,10 +68,15 @@ public class OrderFormController implements Initializable {
         String orderId = txtOrderId.getText();
         String date = txtOrderDate.getText();
         String customerId = String.valueOf(cmbCustomerId.getValue());
-        String total = txtNetTotal.getText();
+        Double total = Double.valueOf(txtNetTotal.getText());
 
         OrderModel orderModel = new OrderModel();
-        orderModel.saveOrder(orderId,date,customerId,total,observableList);
+        boolean b = orderModel.saveOrder(orderId, date, customerId, total, observableList);
+        if (b){
+            new Alert(Alert.AlertType.CONFIRMATION,"save Order..!").show();
+        }else {
+            new Alert(Alert.AlertType.ERROR,"Something Wrong..!").show();
+        }
     }
 
     @Override
